@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="154dp"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true">
+     <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_centerInParent="true"
+         app:srcCompat="@drawable/profile" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="77dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:layout_centerVertical="true"
+         android:layout_marginEnd="32dp"
+         android:gravity="center"
+         android:text="20\n게시글"
+         android:textSize="18sp"
+         tools:layout_editor_absoluteX="0dp" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="77dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentStart="true"
+         android:layout_centerVertical="true"
+         android:layout_marginStart="32dp"
+         android:gravity="center"
+         android:text="15\n스탬프"
+         android:textSize="18sp" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="77dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/imageView"
+         android:layout_centerHorizontal="true"
+         android:gravity="center"
+         android:text="OOOOO"
+         android:textSize="18sp" />
+
+ </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="156dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/bt_camera"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_camera" />
+
+        <ImageButton
+            android:id="@+id/bt_stamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_stamp1" />
+
+        <ImageButton
+            android:id="@+id/bt_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_setting" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/child_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="365dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+            <GridView
+                android:id="@+id/gridView01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:columnWidth="100dp"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:verticalSpacing="10dp" />
+        </FrameLayout>
+
+    </RelativeLayout>
+</FrameLayout>
