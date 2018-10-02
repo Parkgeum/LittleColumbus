@@ -1,4 +1,4 @@
-package com.example.dasol.b;
+package com.example.columbus;
 
 import android.app.Activity;
 import android.content.Intent;

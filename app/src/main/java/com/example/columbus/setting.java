@@ -1,4 +1,4 @@
-package com.example.dasol.b;
+package com.example.columbus;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

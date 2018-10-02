@@ -1,4 +1,4 @@
-package com.example.dasol.b;
+package com.example.columbus;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
+
+import com.example.columbus.ImageAdapter;
 
 
 public class Camera_5 extends Fragment {

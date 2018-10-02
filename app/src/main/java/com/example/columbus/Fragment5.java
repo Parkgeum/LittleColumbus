@@ -1,4 +1,4 @@
-package com.example.dasol.b;
+package com.example.columbus;
 
 import android.content.Intent;
 import android.graphics.Color;
